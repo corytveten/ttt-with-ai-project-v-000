@@ -72,7 +72,7 @@ class Game
     end
   end
 
-  def play 
+  def play
 
   end
 end
