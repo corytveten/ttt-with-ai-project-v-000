@@ -86,5 +86,5 @@ class Game
     end
     board.display
   end
-  
+
 end
