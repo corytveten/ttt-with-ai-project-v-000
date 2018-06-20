@@ -58,6 +58,8 @@ class Game
   end
 
   def turn
+    puts "Player #{current_player.token}'s turn!\n"
+    puts "Where would you like to move? (1-9):\n"
     board.display
 
     user_input = current_player.move(board)
