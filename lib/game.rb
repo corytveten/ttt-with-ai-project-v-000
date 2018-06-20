@@ -58,6 +58,15 @@ class Game
   end
 
   def turn
-
+    board.display
+    
+    user_input = current_player.move(board)
+    
+    if board.valid_move?(user_input)
+      board.update(user_input, current_player)
+    else
+      puts "That number is invalid."
+      turn
+    end
   end
 end
