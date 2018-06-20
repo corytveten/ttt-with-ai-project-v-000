@@ -59,9 +59,9 @@ class Game
 
   def turn
     board.display
-    
+
     user_input = current_player.move(board)
-    
+
     if board.valid_move?(user_input)
       board.update(user_input, current_player)
     else
