@@ -47,4 +47,8 @@ class Game
     !won? && board.full? ? true : false
   end
 
+  def over?
+    won? || draw? ? true : false
+  end
+
 end
