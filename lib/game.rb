@@ -71,4 +71,8 @@ class Game
       turn
     end
   end
+
+  def play 
+
+  end
 end
